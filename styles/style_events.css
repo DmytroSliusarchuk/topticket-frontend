@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.main-heading {
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 35px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  padding: 2rem 0;
+  color: #6c757d;
+  font-size: 0.8rem;
+}
+
+/* Main content styles */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #1c2331;
+  border-color: #1c2331;
+}
+.btn-primary:hover {
+  background-color: #374c70;
+  border-color: #374c70;
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=style_events.css.map */

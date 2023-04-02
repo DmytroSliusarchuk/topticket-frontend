@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style_event.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">TopTicket</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="user_account.html">My account</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="events.html">Events <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/top_event1.png" alt="Event Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>Event 1</h2>
+                <p>Date: 25.05.2023 16:00</p>
+                <p>City: Lviv</p>
+                <p>Address: Main st. 10</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec ac odio tempor orci. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Augue ut lectus arcu bibendum at varius vel pharetra. Lacus viverra vitae congue eu consequat ac felis donec. Commodo quis imperdiet massa tincidunt. At urna condimentum mattis pellentesque id nibh tortor id aliquet. Erat pellentesque adipiscing commodo elit. Tristique senectus et netus et malesuada fames ac. Sit amet purus gravida quis blandit turpis. Facilisis leo vel fringilla est ullamcorper eget nulla. Est velit egestas dui id ornare arcu. At urna condimentum mattis pellentesque id nibh tortor id aliquet. Rhoncus mattis rhoncus urna neque viverra. Varius quam quisque id diam vel quam. Consequat ac felis donec et.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="seat">Select Seat Number:</label>
+                        <select class="form-control" id="seat">
+                            <option>Seat 1</option>
+                            <option>Seat 2</option>
+                            <option>Seat 3</option>
+                            <option>Seat 4</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Ticket Price:</label>
+                        <input type="text" class="form-control" id="price" value="$100" readonly>
+                    </div>
+                    <button type="button" class="btn btn-primary">Buy Ticket</button>
+                    <button type="button" class="btn btn-primary book">Book Ticket</button>
+                </form>
+            </div>
+        </div>
+<!--        <div class="seats">-->
+<!--            <img src="images/top_event1.png">-->
+<!--        </div>-->
+    </div>
+</main>
+
+<!-- Footer Section -->
+<footer class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>&copy; 2023 TopTicket. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Importing necessary scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper-base.min.js"
+        integrity="sha384-xRn+bLyhE8mzWs1LOqolmjjNHjAxQrsH8SvZ/2/L5xygS5js5DyN9vN17iMxyPjN"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Account</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style_admin_account.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">TopTicket</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="user_account.html">My account <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about_us.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Main content -->
+<main class="container">
+  <h1 class="main-heading">My Account</h1>
+  <div class="row">
+    <div class="col-md-4 user-details">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">User Information</h5>
+          <p class="card-text">Username: John12</p>
+          <p class="card-text">Name: John</p>
+          <p class="card-text">Surname: Doe</p>
+          <p class="card-text">Phone: +3800673530318</p>
+          <p class="card-text">Email: john.doe@example.com</p>
+          <p class="card-text">City: Lviv</p>
+          <p class="card-text">Role: Admin</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 events-list">
+      <h5>My Events</h5>
+      <ul class="list-group">
+        <li class="list-group-item"><span class="event_name"><a href="event.html">Event 1</a></span> <span class="edit"><a href="edit_event.html" class="btn btn-primary mr-2 edit-btn">Edit</a></span></li>
+        <li class="list-group-item"><span class="event_name"><a href="#">Event 2</a></span> <span class="edit"><a href="edit_event.html" class="btn btn-primary mr-2 edit-btn">Edit</a></span></li>
+        <li class="list-group-item"><span class="event_name"><a href="#">Event 3</a></span> <span class="edit"><a href="edit_event.html" class="btn btn-primary mr-2 edit-btn">Edit</a></span></li>
+      </ul>
+
+      <div class="mt-4 edit-buttons">
+        <a href="create_event.html" class="btn btn-primary mr-2 add-event">Add Event</a>
+        <a href="edit_account.html" class="btn btn-primary mr-2">Edit Account</a>
+        <a href="#" class="btn btn-danger">Delete Account</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Footer Section -->
+<footer class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; 2023 TopTicket. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Importing necessary scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNSqnQ7"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

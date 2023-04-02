@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.main-heading {
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 35px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  padding: 2rem 0;
+  color: #6c757d;
+  font-size: 0.8rem;
+}
+
+/* Main content styles */
+.card {
+  margin-bottom: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #1c2331;
+  border-color: #1c2331;
+}
+.btn-primary:hover {
+  background-color: #374c70;
+  border-color: #374c70;
+}
+
+@media (max-width: 768px) {
+  .navbar-expand-md .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+  .card-img-top {
+    height: 150px;
+  }
+}
+
+/*# sourceMappingURL=style_index.css.map */

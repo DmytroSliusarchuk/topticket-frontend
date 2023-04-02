@@ -1,0 +1,22 @@
+@import "default";
+
+/* Main content styles */
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.form-group {
+  label {
+    font-weight: bold;
+  }
+}
+
+.btn-primary {
+  margin-right: 10px;
+}
