@@ -1,0 +1,52 @@
+$color_1: #0056b3;
+$color_2: #6c757d;
+$font-family_1: Arial, sans-serif;
+
+body {
+  font-family: $font-family_1;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+svg{
+  color: black;
+  width: 200px;
+  height: 50px;
+  margin-top: 0;
+  vertical-align: 0;
+}
+
+a {
+  &:hover {
+    color: $color_1;
+    text-decoration: none;
+  }
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.main-heading {
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 35px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  padding: 2rem 0;
+  color: $color_2;
+  font-size: 0.8rem;
+}
