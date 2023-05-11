@@ -1,0 +1,30 @@
+$background-color_1: #1c2331;
+$background-color_2: #374c70;
+$border-color_1: #1c2331;
+$border-color_2: #374c70;
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cardText {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.buyTicket{
+  border: 0;
+  background: white;
+  margin-left: -7px;
+}
+
+.eventCard {
+  background-color: $background-color_1;
+  border-color: $border-color_1;
+
+  &:hover {
+    background-color: $background-color_2;
+    border-color: $border-color_2;
+  }
+}

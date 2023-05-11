@@ -1,0 +1,30 @@
+.edit {
+  float: right;
+}
+
+.editButtons {
+  text-align: right;
+  margin-top: 30px;
+
+}
+
+.editBtn {
+  display: inline;
+
+}
+
+.seatNumber {
+  float: right;
+  margin-left: 2em;
+}
+
+.addEvent {
+  float: left;
+}
+
+.eventName{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}

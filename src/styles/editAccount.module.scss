@@ -1,0 +1,42 @@
+$background-color_1: #fff;
+$color_1: #555;
+
+
+.mainHeadingEdit{
+  text-align: center;
+}
+
+.editForm {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: $background-color_1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  input {
+    width: 100%;
+    padding: 10px;
+    color: $color_1;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+
+  button {
+    display: block;
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+}
