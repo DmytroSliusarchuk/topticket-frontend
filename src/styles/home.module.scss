@@ -1,0 +1,43 @@
+$background-color_1: #1c2331;
+$background-color_2: #374c70;
+$border-color_1: #1c2331;
+$border-color_2: #374c70;
+
+.cardHome {
+  margin-bottom: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.cardImgTop {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cardText {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cardButton {
+  background-color: $background-color_1;
+  border-color: $border-color_1;
+
+  &:hover {
+    background-color: $background-color_2;
+    border-color: $border-color_2;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardImgTop {
+    height: 150px;
+  }
+}
