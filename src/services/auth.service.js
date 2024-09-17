@@ -28,7 +28,7 @@ export default class AuthService {
             {
                 headers: {
                     'accept': 'application/json',
-                    'api-key': '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',
+                    'api-key': 'api-key',
                     'content-type': 'application/json'
                 }
             }
